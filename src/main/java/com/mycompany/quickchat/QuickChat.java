@@ -40,7 +40,7 @@ public class QuickChat {
                     System.out.print("Enter first name: ");
                     String fName = input.nextLine();
 
-                    System.out.print("Enter last name: ");
+                    System.out.print("Enter last name: "); 
                     String lName = input.nextLine();
 
                     System.out.print("Enter username: ");
@@ -79,7 +79,7 @@ public class QuickChat {
 
                             switch(msgChoice) {
                                 case 1:
-                                    System.out.print("Enter message ID: "); 
+                                    System.out.print("Enter message ID: ");
                                     String id = input.nextLine();
 
                                     System.out.print("Enter recipient number: ");
