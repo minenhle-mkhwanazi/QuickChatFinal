@@ -23,7 +23,7 @@ public class QuickChat {
 
         // OUTER LOOP: Main menu
         do {
-            System.out.println("\n===== QUICKCHAT MENU ====="); 
+            System.out.println("\n===== QUICKCHAT MENU =====");
             System.out.println("1. Register User");
             System.out.println("2. Login");
             System.out.println("3. Exit");
@@ -49,7 +49,7 @@ public class QuickChat {
                     System.out.print("Enter password: ");
                     String password = input.nextLine();
 
-                    System.out.print("Enter cell number: ");
+                    System.out.print("Enter cell number: "); 
                     String cell = input.nextLine();
 
                     System.out.println(app.registerUser(fName, lName, username, password, cell));
