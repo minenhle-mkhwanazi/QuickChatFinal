@@ -23,7 +23,7 @@ public class QuickChat {
 
         // OUTER LOOP: Main menu
         do {
-            System.out.println("\n===== QUICKCHAT MENU =====");
+            System.out.println("\n===== QUICKCHAT MENU ====="); 
             System.out.println("1. Register User");
             System.out.println("2. Login");
             System.out.println("3. Exit");
