@@ -40,13 +40,13 @@ public class QuickChat {
                     System.out.print("Enter first name: ");
                     String fName = input.nextLine();
 
-                    System.out.print("Enter last name: "); 
+                    System.out.print("Enter last name: ");
                     String lName = input.nextLine();
 
                     System.out.print("Enter username: ");
                     String username = input.nextLine();
 
-                    System.out.print("Enter password: ");
+                    System.out.print("Enter password: "); 
                     String password = input.nextLine();
 
                     System.out.print("Enter cell number: ");
