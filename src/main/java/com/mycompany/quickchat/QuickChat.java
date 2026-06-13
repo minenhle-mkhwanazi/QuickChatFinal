@@ -26,9 +26,9 @@ public class QuickChat {
             System.out.println("\n===== QUICKCHAT MENU =====");
             System.out.println("1. Register User");
             System.out.println("2. Login");
-            System.out.println("3. Exit");
+            System.out.println("3. Exit"); 
             System.out.println("4. Stored Messages"); // New option for part 3
-            System.out.println("5. Export JSON Report"); // ✅ New option
+            System.out.println("5. Export JSON Report"); 
 
             System.out.print("Choose option: ");
             choice = input.nextInt();
@@ -46,7 +46,7 @@ public class QuickChat {
                     System.out.print("Enter username: ");
                     String username = input.nextLine();
 
-                    System.out.print("Enter password: "); 
+                    System.out.print("Enter password: ");
                     String password = input.nextLine();
 
                     System.out.print("Enter cell number: ");
