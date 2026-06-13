@@ -49,7 +49,7 @@ public class QuickChat {
                     System.out.print("Enter password: ");
                     String password = input.nextLine();
 
-                    System.out.print("Enter cell number: "); 
+                    System.out.print("Enter cell number: ");
                     String cell = input.nextLine();
 
                     System.out.println(app.registerUser(fName, lName, username, password, cell));
@@ -79,7 +79,7 @@ public class QuickChat {
 
                             switch(msgChoice) {
                                 case 1:
-                                    System.out.print("Enter message ID: ");
+                                    System.out.print("Enter message ID: "); 
                                     String id = input.nextLine();
 
                                     System.out.print("Enter recipient number: ");
